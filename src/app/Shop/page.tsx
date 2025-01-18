@@ -11,10 +11,10 @@ let querym=await client.fetch(`*[_type=="product"]{
   title,
   description,
   productImage,
-    price,
+  price,
     tags,
-    discountpercentage,
-    isnew,
+ discountpercentage,
+ isnew,
     
 }`);
       
@@ -48,9 +48,7 @@ let querym=await client.fetch(`*[_type=="product"]{
                          <h2 className='pl-6 pt-3 font-[poppins] font-semibold text-2xl text-[#3a3a3a]' >{prod.title}</h2>
                          <h2 className='pl-6 pt-1font-[poppins] font-medium text-base text-[#898989] ' >{prod.tags}</h2>
                          <h2 className='pl-6 pt-1 font-[poppins] font-semibold text-xl text-[#3a3a3a] ' >Rp : {prod.price} rs</h2>
-                         <h2 className='pl-6 pt-1 font-[poppins]  ' >{prod.dicountPercentage}</h2>
-                         <h2 className='pl-6 pt-1' >{prod.isnew}</h2>
-                        
+                         
                          
                          
                          </div>

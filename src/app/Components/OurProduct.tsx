@@ -35,8 +35,7 @@ async function OurProducts() {
                 <h2 className='pl-6 pt-3' >{prod.title}</h2>
                 <h2 className='pl-6 pt-1' >{prod.tags}</h2>
                 <h2 className='pl-6 pt-1' >Rp : {prod.price} $</h2>
-                <h2 className='pl-6 pt-1' >{prod.discountPercentage}</h2>
-                <h2 className='pl-6 pt-1' >{prod.isNew}</h2>
+                
                 
                
                 
